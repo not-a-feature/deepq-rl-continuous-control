@@ -1,0 +1,26 @@
+adapt_strat_sb_pos_sr07_20
+Env              = Pendulum-v1
+Date             = 17:12 CEST on Apr 24, 2023
+Model Path       = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/Pendulum-v1/adapt_strat_sb_pos_sr07_20
+State dimension  = (3,)
+Action dimension = (1,)
+--------------------------------------------
+ACTOR_LR         = 0.0001
+BATCH_SIZE       = 64
+BUFFER_SIZE      = 5000
+CRITIC_LR        = 0.001
+ENV_NAME         = Pendulum-v1
+EPISODES         = 200
+GAMMA            = 0.99
+GLOBAL_PATH      = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/Pendulum-v1/adapt_strat_sb_pos_sr07_20/globals
+LOSS_PATH        = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/Pendulum-v1/adapt_strat_sb_pos_sr07_20/loss.csv
+MAX_STEPS        = 200
+MODEL_NAME       = adapt_strat_sb_pos_sr07_20
+MODEL_SAVE_DIR   = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/Pendulum-v1/adapt_strat_sb_pos_sr07_20
+NOISE_SCALE      = 0.1
+REWARD_THRESHOLD = 0.5
+SAVE_EVERY       = 10
+STRATIFY_RATIO   = 0.7
+TAU              = 0.001
+THRESHOLD_WIDTH  = 50
+VERBOSE          = True

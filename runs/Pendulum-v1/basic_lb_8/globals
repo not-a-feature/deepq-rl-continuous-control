@@ -1,0 +1,23 @@
+basic_lb_8
+Env              = Pendulum-v1
+Date             = 22:10 CEST on Apr 19, 2023
+Model Path       = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/basic_ddpg/../runs/Pendulum-v1/basic_lb_8
+State dimension  = (3,)
+Action dimension = (1,)
+--------------------------------------------
+ACTOR_LR       = 0.0001
+BATCH_SIZE     = 64
+BUFFER_SIZE    = 10000000.0
+CRITIC_LR      = 0.001
+ENV_NAME       = Pendulum-v1
+EPISODES       = 200
+GAMMA          = 0.99
+GLOBAL_PATH    = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/basic_ddpg/../runs/Pendulum-v1/basic_lb_8/globals
+LOSS_PATH      = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/basic_ddpg/../runs/Pendulum-v1/basic_lb_8/loss.csv
+MAX_STEPS      = 200
+MODEL_NAME     = basic_lb_8
+MODEL_SAVE_DIR = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/basic_ddpg/../runs/Pendulum-v1/basic_lb_8
+NOISE_SCALE    = 0.1
+SAVE_EVERY     = 10
+TAU            = 0.001
+VERBOSE        = True

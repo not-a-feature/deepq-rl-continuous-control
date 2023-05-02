@@ -1,0 +1,24 @@
+softmax_lb_7
+Env              = BipedalWalker-v3
+Date             = 08:08 CEST on May 02, 2023
+Model Path       = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/softmax_ddpg/../runs/BipedalWalker-v3/softmax_lb_7
+State dimension  = (24,)
+Action dimension = (4,)
+--------------------------------------------
+ACTOR_LR       = 0.0001
+BATCH_SIZE     = 64
+BUFFER_SIZE    = 10000000.0
+CRITIC_LR      = 0.001
+ENV_NAME       = BipedalWalker-v3
+EPISODES       = 1000
+GAMMA          = 0.99
+GLOBAL_PATH    = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/softmax_ddpg/../runs/BipedalWalker-v3/softmax_lb_7/globals
+LOSS_PATH      = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/softmax_ddpg/../runs/BipedalWalker-v3/softmax_lb_7/loss.csv
+MAX_STEPS      = 200
+MODEL_NAME     = softmax_lb_7
+MODEL_SAVE_DIR = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/softmax_ddpg/../runs/BipedalWalker-v3/softmax_lb_7
+NOISE_SCALE    = 0.1
+SAVE_EVERY     = 100
+TAU            = 0.001
+THETA          = 1
+VERBOSE        = True

@@ -1,0 +1,26 @@
+adapt_strat_lb_neg_9
+Env              = BipedalWalker-v3
+Date             = 14:15 CEST on May 01, 2023
+Model Path       = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/BipedalWalker-v3/adapt_strat_lb_neg_9
+State dimension  = (24,)
+Action dimension = (4,)
+--------------------------------------------
+ACTOR_LR         = 0.0001
+BATCH_SIZE       = 64
+BUFFER_SIZE      = 5000000.0
+CRITIC_LR        = 0.001
+ENV_NAME         = BipedalWalker-v3
+EPISODES         = 1000
+GAMMA            = 0.99
+GLOBAL_PATH      = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/BipedalWalker-v3/adapt_strat_lb_neg_9/globals
+LOSS_PATH        = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/BipedalWalker-v3/adapt_strat_lb_neg_9/loss.csv
+MAX_STEPS        = 200
+MODEL_NAME       = adapt_strat_lb_neg_9
+MODEL_SAVE_DIR   = /nfs/wsi/mm/projects/kreuerju/deepq-rl-bipedal-walkers/stratified_ddpg/../runs/BipedalWalker-v3/adapt_strat_lb_neg_9
+NOISE_SCALE      = 0.1
+REWARD_THRESHOLD = -0.5
+SAVE_EVERY       = 10
+STRATIFY_RATIO   = 0.5
+TAU              = 0.001
+THRESHOLD_WIDTH  = 50
+VERBOSE          = True
